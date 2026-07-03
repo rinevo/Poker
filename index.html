@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ポーカー - rinevo.com</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top-link">
+      <a href="https://rinevo.com" target="_self" rel="noopener noreferrer">rinevo.com</a>
+    </div>
+    <h1>ポーカー</h1>
+    <p class="subtitle">5枚ドロー・ポーカーです。カードをクリックしてホールドし、ドローで交換できます。</p>
+
+    <div class="info">
+      <div class="info-box"><strong>残り枚数</strong><span id="deckCount">52</span></div>
+      <div class="info-box"><strong>ホールド中</strong><span id="holdCount">0</span></div>
+      <div class="info-box"><strong>現在の役</strong><span id="handRank">-</span></div>
+      <div class="info-box"><strong>ゲーム状態</strong><span id="gameState">待機中</span></div>
+    </div>
+
+    <section class="hand-area">
+      <h2>あなたの手札</h2>
+      <div id="cards" class="cards"></div>
+    </section>
+
+    <div class="result" id="resultText">まず「配る」を押してください。</div>
+    <div class="controls">
+      <button id="dealBtn">配る</button>
+      <button id="drawBtn" disabled>ドロー</button>
+      <button id="resetBtn" disabled>リセット</button>
+    </div>
+  </div>
+</body>
+</html>

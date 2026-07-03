@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300" viewBox="0 0 200 300">
+  <rect x="2" y="2" width="196" height="296" rx="18" fill="#ffffff" stroke="#222222" stroke-width="3" />
+  <rect x="8" y="8" width="184" height="284" rx="14" fill="#fefefe" stroke="#d7d7d7" stroke-width="1.5" />
+  <text x="100" y="166" font-family="Segoe UI, Arial, sans-serif" font-size="92" font-weight="700" fill="#111111" text-anchor="middle">🃏</text>
+  <text x="100" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">JOKER</text>
+</svg>
